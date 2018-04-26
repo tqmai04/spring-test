@@ -1,0 +1,17 @@
+Spring Boot Starter Parent
+Spring Boot Starter Web
+@SpringBootApplication
+Auto Configuration
+
+Dispatcher Servlet
+
+/login => "login"
+
+"login" => src/main/webapp/WEB-INF/jsp/login.jsp
+
+
+Search for a view named "login"
+
+
+
+/login => LoginController
