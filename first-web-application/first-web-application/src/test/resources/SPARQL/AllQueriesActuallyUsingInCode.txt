@@ -1,0 +1,41 @@
+# select all triples from a given graph
+select ?s ?p ?o
+where {
+    ?s ?p ?o
+}
+
+
+# select all graph names from dataset
+#select distinct ?g
+#where {
+#  graph ?g {?s ?p ?o}
+#}
+
+
+# select all unique predicates of a given graph
+#select distinct ?p
+#where {
+#  ?s ?p ?o
+#}
+
+# count number of triples in a given graph
+#select (count(?s) as ?triples)
+#where {
+#   ?s ?p ?o
+#}
+
+# select all unique predicate names of a graph
+#select distinct ?p
+#where {
+#   ?s ?p ?o
+#}
+
+# create new model from graph of dataset
+#construct {?s ?p ?o}
+#where {
+#  {
+#      graph <http://localhost:3030/self_service/data/Addresses> {
+#          {?s ?p ?o}
+#      }
+#  }
+#}

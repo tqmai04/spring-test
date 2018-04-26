@@ -1,0 +1,39 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ds: <https://data.brla.gov/resource/_6fyg-p3r9/>
+PREFIX dsbase: <https://data.brla.gov/resource/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX ods: <http://open-data-standards.github.com/2012/01/open-data-standards#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX socrata: <http://www.socrata.com/rdf/terms#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+select distinct ?council_person ?full_address ?city ?district ?zip
+where {
+  {
+    ?person ds:council_person ?council_person.
+    FILTER(regex(?council_person, "Trae Welch")).
+    ?person ds:district_num ?district.
+    ?person ds:full_address ?full_address.
+    ?person ds:city ?city.
+    ?person ds:zip ?zip
+  }
+  union
+  {
+    ?person ds:council_person ?council_person.
+    FILTER(regex(?council_person, "Matt Watson")).
+    ?person ds:district_num ?district.
+    ?person ds:full_address ?full_address.
+    ?person ds:city ?city.
+    ?person ds:zip ?zip
+  }
+}
+order by ?city ?zip

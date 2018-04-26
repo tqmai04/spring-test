@@ -1,0 +1,3 @@
+<Subject1>  <abstract>  "Le Maharashtra (महाराष्ट्र Mahārāṣṭra en marathi) est un État de l'ouest de l'Inde.Le principal critère de délimitation de l'État (1-V-1960) fut la majorité linguistique (marathi). Sa population était de 112 372 972 en 2011, ce qui le classe comme 2e État le plus peuplé d'Inde. Seulement onze pays dans le monde ont une population plus importante. Sa capitale est Bombay, la capitale économique et la plus grande ville d'Inde. C'est l'État qui reçoit le plus d'investissements étrangers directs. Il produit 32 % des exportations indiennes.@fr" ;
+        <subject>   "http://dbpedia.org/resource/Category:States_and_territories_of_India" ;
+        <west>      "http://dbpedia.org/resource/Arabian_Sea" .

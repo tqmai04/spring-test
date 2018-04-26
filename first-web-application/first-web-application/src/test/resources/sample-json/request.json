@@ -1,0 +1,48 @@
+{
+    "type": "fuseki",
+    "name": "Address",
+    "limit": "5",
+    "predicates": [
+        [
+            "council_person",
+            "full_name"
+        ],
+        [
+            "full_address",
+            "address"
+        ],
+        [
+            "city",
+            ""
+        ],
+        [
+            "district_num",
+            ""
+        ],
+        [
+            "zip",
+            "zip_code"
+        ]
+    ],
+    "constraints": [
+        [
+            "council_person",
+            "13",
+            "a",
+            "w"
+        ],
+        [
+            "full_address",
+            "15",
+            "5"
+        ],
+        [
+            "district_num",
+            "24"
+        ],
+        [
+            "zip",
+            "2"
+        ]
+    ]
+}

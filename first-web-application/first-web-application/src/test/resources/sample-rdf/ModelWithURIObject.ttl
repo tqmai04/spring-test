@@ -1,0 +1,8 @@
+<Subject2>  <color>             "Gra" ;
+        <wikiPageExternalLink>  "https://www.britannica.com/place/Maharashtra" .
+
+<Subject1>  <color>             "Yello" ;
+        <wikiPageExternalLink>  "https://www.maharashtra.gov.in/" .
+
+<Subject3>  <color>             "Yello" ;
+        <wikiPageExternalLink>  "https://www.maharashtra.gov.in/" .

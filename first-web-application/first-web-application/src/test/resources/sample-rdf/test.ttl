@@ -1,0 +1,28 @@
+<https://data.brla.gov/resource/_6fyg-p3r9/230056>
+        a       <https://data.brla.gov/resource/_6fyg-p3r9> ;
+        <http://www.w3.org/2000/01/rdf-schema#member>
+                <https://data.brla.gov/resource/_6fyg-p3r9> ;
+        <http://www.socrata.com/rdf/terms#rowID>
+                "230112" , "230088" , "230056" , "230129" ;
+        <https://data.brla.gov/resource/_6fyg-p3r9/address_no_complete>
+                "923" , "7019" , "11542" , "21570" ;
+        <https://data.brla.gov/resource/_6fyg-p3r9/city>
+                "ZACHARY" , "BATON ROUGE" ;
+        <https://data.brla.gov/resource/_6fyg-p3r9/council_person>
+                "Trae Welch" , "Donna Collins-Lewis" , "Matt Watson" ;
+        <https://data.brla.gov/resource/_6fyg-p3r9/district_num>
+                "6" , "1" , "11" ;
+        <https://data.brla.gov/resource/_6fyg-p3r9/dob>
+                "11/11/2011" ;
+        <https://data.brla.gov/resource/_6fyg-p3r9/full_address>
+                "21570 PORT HICKEY RD" , "11542 PAMELA DR" , "923 CROWN WAY" , "7019 FLORIDA BLVD" ;
+        <https://data.brla.gov/resource/_6fyg-p3r9/lot_location>
+                "BATON ROUGE" , "PARISH" ;
+        <https://data.brla.gov/resource/_6fyg-p3r9/something>
+                "Some random thing" ;
+        <https://data.brla.gov/resource/_6fyg-p3r9/st_name>
+                "PORT HICKEY" , "PAMELA" , "CROWN" , "FLORIDA" ;
+        <https://data.brla.gov/resource/_6fyg-p3r9/st_suffix_type>
+                "WAY" , "RD" , "DR" , "BLVD" ;
+        <https://data.brla.gov/resource/_6fyg-p3r9/zip>
+                "70791" , "70806" , "70815" .

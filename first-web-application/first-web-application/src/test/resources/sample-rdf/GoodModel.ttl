@@ -1,0 +1,17 @@
+<Subject2>  <address>   "6010 PERKINS RD" ;
+        <city>          "BATON ROUGE" ;
+        <district_num>  "12" ;
+        <full_name>     "Trae Welch" ;
+        <zip_code>      "70808" .
+
+<Subject1>  <address>   "16488 SAMUELS RD" ;
+        <city>          "BAKER" ;
+        <district_num>  "8" ;
+        <full_name>     "Trae Welch" ;
+        <zip_code>      "70816" .
+
+<Subject3>  <address>   "5755 BARROW DR" ;
+        <city>          "BATON ROUGE" ;
+        <district_num>  "5" ;
+        <full_name>     "Barbara Freiberg" ;
+        <zip_code>      "70812" .
